@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ffcf31aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #ffcf31aa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  text-align: start;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+#campfire {
+  width: 70px;
+  height: 105px;
+}
